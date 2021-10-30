@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "collegelocation",
+      "patterns": [
+        "where is the college?",
+        "where is college located?",
+        "which city is the college in?",
+        "what is the location of college?",
+        "college location"
+      ],
+      "responses": [
+        "College is located in KarunyaNagar,Coimbatore",
+        "Karunya Nagar,Coimbatore",
+        "Coimbatore"
+      ]
+    },
+    {
+      "tag": "CS",
+      "patterns": [
+        "What is Computer Science ?",
+        "Tell me about Computer Science",
+        "computer science",
+        "CS"
+      ],
+      "responses": [
+        "Computer science (CS) is the study of computers and algorithmic processes including their principles, their hardware and software designs, their applications, and their impact on society."
+      ]
+    },
+    {
+      "tag": "CSE",
+      "patterns": [
+        "what is Computer Science Engineering?",
+        "what is CSE ?",
+        "CSE"
+      ],
+      "responses": [
+        "Computer Science Engineering is a course that deals with design, implementation, and management of information systems of both software & hardware processes. A computer scientist specializes in theory of computation and design of computational systems"    
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "joke",
+        "I'm bored",
+        "make me laugh"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "I'm afraid for the calendar. Its days are numbered.",
+        "What do you call a fish wearing a bowtie? Sofishticated.",
+        "How do you follow Will Smith in the snow? You follow the fresh prints.",
+        "What kind of shoes do ninjas wear? Sneakers!"
+      ]
+    },
+    {
+      "tag": "CC",
+      "patterns": [
+        "What is Cognitive Computing?",
+        "Cognitive Computing",
+        "Define Cognitive Computing"
+      ],
+      "responses": [
+        "Cognitive computing (CC) refers to technology platforms that, broadly speaking, are based on the scientific disciplines of artificial intelligence and signal processing. These platforms encompass machine learning, reasoning, natural language processing, speech recognition and vision (object recognition), human computer interaction, dialog and narrative generation, among other technologies"
+
+      ]
+    }
+  ]
+}
